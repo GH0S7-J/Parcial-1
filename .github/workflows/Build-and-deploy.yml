@@ -19,4 +19,4 @@ jobs:
 
     - name: Deploy to Surge
       run: |
-        surge --project ./ --domain <parcial-1>.surge.sh --token b41495963a75cbf290c2ae5b056551dc
+        surge --project ./ --domain parcial-1.surge.sh --token b41495963a75cbf290c2ae5b056551dc
