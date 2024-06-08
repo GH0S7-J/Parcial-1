@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Alpha Shop</title>
+    <style>
+        .producto {
+            margin-bottom: 20px;
+        }
+
+        .descuento {
+            color: #FFA500; /* Color naranja */
+            font-weight: bold; /* Texto en negrita para resaltar */
+        }
+
+        /* Agregamos estilo para cambiar el color del texto del nombre de la página y del menú de navegación */
+        .navbar {
+            background-color: #001F3F; /* Azul marino */
+        }
+
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #ffffff; /* Texto en color blanco */
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Alpha Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ofertas</a>
+                </li>
+                <!-- Puedes agregar más elementos al menú según tus necesidades -->
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <!-- Primera fila - Galería de productos -->
+    <div class="row">
+        <!-- Producto 1 -->
+        <div class="col-md-3">
+            <div class="card producto">
+                <img src="images/imagen_producto_1.jpg" class="card-img-top" alt="Producto 1">
+                <div class="card-body">
+                    <h5 class="card-title">Lego Porsche 911 RSR</h5>
+                    <p class="card-text">Set de Lego de Porsche 911 RSR. Con más de 1580 piezas.</p>
+                    <p class="card-text">Precio: $179.99</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="col-md-3">
+            <div class="card producto">
+                <img src="images/imagen_producto_2.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Monitor KAROOI 24"</h5>
+                    <p class="card-text">Monitor Gaming KAROOI de 24 pulgadas con tasa de refresco de 165 Hz.</p>
+                    <p class="card-text">Precio: $109.99</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="col-md-3">
+            <div class="card producto">
+                <img src="images/imagen_producto_3.jpg" class="card-img-top" alt="Producto 3">
+                <div class="card-body">
+                    <h5 class="card-title">Teclado Fantech MK857</h5>
+                    <p class="card-text">Teclado Gaming Fantech Mk857. Color Blanco con Retroiluminación RGB. Interruptor rojo. Cable tipo-C desmontable.</p>
+                    <p class="card-text">Precio: $49.99</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="col-md-3">
+            <div class="card producto">
+                <img src="images/imagen_producto_4.jpg" class="card-img-top" alt="Producto 4">
+                <div class="card-body">
+                    <h5 class="card-title">Suscripción de Twitch</h5>
+                    <p class="card-text">Una suscripción a mi Twitch.</p>
+                    <p class="card-text">Precio: $5.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Segunda fila - Ofertas de dispositivos -->
+    <div class="row">
+        <!-- Ofertas en un mismo cuadro -->
+        <div class="col-md-12">
+            <div class="card producto">
+                <div class="card-body">
+                    <h2 class="card-title">Ofertas</h2>
+                    <div class="row no-gutters">
+                        <!-- Oferta 1 -->
+                        <div class="col-md-3">
+                            <img src="images/oferta_dispositivo_1.jpg" class="card-img-top" alt="Oferta 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Tarjeta Grafica ASUS 4060</h5>
+                                <p class="card-text">ASUS Dual GeForce RTX™ 4060 OC Edition 8GB GDDR6</p>
+                                <p class="card-text"><span class="descuento">-30%</span></p>
+                                <p class="card-text">Precio: $212.88</p>
+                            </div>
+                        </div>
+
+                        <!-- Oferta 2 -->
+                        <div class="col-md-3">
+                            <img src="images/oferta_dispositivo_2.jpg" class="card-img-top" alt="Oferta 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Almohada Oxido Nitroso</h5>
+                                <p class="card-text">Almohada Botella Oxido Nitroso. Decoración para auto</p>
+                              <p class="card-text"><span class="descuento">-20%</span></p>
+                                <p class="card-text">Precio: $20.79</p>
+                            </div>
+                        </div>
+
+                        <!-- Oferta 3 -->
+                        <div class="col-md-3">
+                            <img src="images/oferta_dispositivo_3.jpg" class="card-img-top" alt="Oferta 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Cable HDMI</h5>
+                                <p class="card-text">Cable de HDMI macho a HDMI macho. 6 pies, 4K, Negro</p>
+                                <p class="card-text"><span class="descuento">-20%</span></p>
+                                <p class="card-text">Precio: $6.39</p>
+                            </div>
+                        </div>
+
+                        <!-- Oferta 4 -->
+                        <div class="col-md-3">
+                            <img src="images/oferta_dispositivo_4.jpg" class="card-img-top" alt="Oferta 4">
+                            <div class="card-body">
+                                <h5 class="card-title">Mouse Logitech G305</h5>
+                                <p class="card-text">LIGHTSPEED Wireless Gaming Mouse, Hero 12K Sensor, 12,000 DPI, Lightweight, 6 botones programables, 250h vida de Bateria, On-Board Memory, PC/Mac - Negro</p>
+                                <p class="card-text"><span class="descuento">-30%</span> </p>
+                                <p class="card-text">Precio: $34.88</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
